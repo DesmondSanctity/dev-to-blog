@@ -7,6 +7,7 @@ import {
   Text,
   Spacer,
   VStack,
+  Center,
 } from "@chakra-ui/react";
 import { ReactNode } from "react";
 
@@ -37,7 +38,7 @@ function LoginCard() {
       borderRadius="md"
       borderBottom="1px solid #E2E4E6"
     >
-      <VStack spacing={8}>
+      <VStack spacing={8} align={"center"}>
         <Text fontWeight="500" mb={5} mt={5}>
           DEV Community is a community of 803,838 amazing developers
         </Text>
