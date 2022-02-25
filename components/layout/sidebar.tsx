@@ -33,7 +33,7 @@ function LoginCard() {
   return (
     <Box
       as="section"
-      bg="grey"
+      bg="#f9f9f9"
       borderRadius="md"
       borderBottom="1px solid #E2E4E6"
     >
