@@ -135,7 +135,7 @@ function Card({
           <HStack mt={3}>
             <Button
               leftIcon={<Image src="/assets/images/like.svg" alt="like" />}
-              ml={-2}
+              // ml={-2}
               bg="transparent"
               padding="6px 8px"
               height="auto"
