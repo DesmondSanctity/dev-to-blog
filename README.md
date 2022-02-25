@@ -3,7 +3,7 @@
     <img src="./public/assets/images/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
-  <h2 align="center">Dev.to Clone</h2>
+  <h2 align="center">Dev.to Blog Replica</h2>
 
   <p align="center">
     Built with Typescript, React & Next.js
@@ -22,14 +22,14 @@ This application is built with the following technologies:
 - [Nextjs](https://nextjs.org/)
 - [Chakra UI](https://chakra-ui.com)
 - [SWR](https://swr.vercel.app/)
-- [Dev.to api](https://docs.forem.com/api/)
+- [Dev.to API](https://docs.forem.com/api/)
 
 
 ### Installation
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/MA-Ahmad/dev.to-clone
+    git clone https://github.com/DesmondSanctity/dev-to-blog
     ```
 2. Install NPM packages
     ```sh
