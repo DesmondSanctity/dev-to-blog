@@ -49,7 +49,7 @@ function LoginCard() {
         >
           Create account
         </Button>
-        <Text fontWeight="500">Login</Text>
+        <Text fontWeight="500" mb={5}>Login</Text>
       </VStack>
     </Box>
   );

@@ -202,7 +202,7 @@ const Posts = () => {
   if (!data)
     return (
       <Box mb="8" borderRadius="md">
-        <Header isActive={isActive} setIsActive={setIsActive} />
+        {/* <Header isActive={isActive} setIsActive={setIsActive} /> */}
         <SkeletonCards />
       </Box>
     );
