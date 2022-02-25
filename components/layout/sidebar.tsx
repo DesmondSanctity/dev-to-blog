@@ -6,7 +6,7 @@ import {
   Image,
   Text,
   Spacer,
-  VStack
+  VStack,
 } from "@chakra-ui/react";
 import { ReactNode } from "react";
 
@@ -31,19 +31,26 @@ const LinkButton = ({ children }: LinkButtonProps) => {
 
 function LoginCard() {
   return (
-    <Box as="section" bg="white" borderRadius="md" borderBottom="1px solid #E2E4E6">
+    <Box
+      as="section"
+      bg="grey"
+      borderRadius="md"
+      borderBottom="1px solid #E2E4E6"
+    >
       <VStack spacing={3}>
-            <Button
-              variant='outline'
-              color="#fff"
-              borderRadius="4px"
-              bg="#3b49df"
-              _hover={{ bg: "#323ebe" }}
-            >
-              Create account
-            </Button>
-            <Text fontWeight="500">Login</Text>
-          </VStack>
+        <Text fontWeight="500" mb={5} mt={5}>DEV Community is a community of 803,838 amazing developers</Text>
+        <Text fontWeight="200"  mb={5}>We are a place where coders share, stay up-to-date and grow their careers.</Text>
+        <Button
+          variant="outline"
+          color="#fff"
+          borderRadius="4px"
+          bg="#3b49df"
+          _hover={{ bg: "#323ebe" }}
+        >
+          Create account
+        </Button>
+        <Text fontWeight="500">Login</Text>
+      </VStack>
     </Box>
   );
 }
@@ -53,7 +60,7 @@ const Links = () => {
     <Box as="nav">
       <LoginCard />
       <LinkButton>
-        <Image src="/assets/images/sidebar/home.svg" mr="3" alt="home"/>
+        <Image src="/assets/images/sidebar/home.svg" mr="3" alt="home" />
         Home
       </LinkButton>
       <LinkButton>
@@ -113,7 +120,7 @@ const Tags = () => {
             "ruby",
             "ruby on rails",
             "beginners",
-            "typescript"
+            "typescript",
           ]}
         </TagList>
       </Box>
@@ -121,7 +128,7 @@ const Tags = () => {
   );
 };
 
-const Sidebar = props => {
+const Sidebar = (props) => {
   return (
     <Box as="aside" {...props}>
       <Links />
