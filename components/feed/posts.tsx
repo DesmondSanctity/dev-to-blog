@@ -58,7 +58,7 @@ const Header = ({ isActive, setIsActive }) => {
     <Box as="header">
       <HStack spacing=".6rem">
         <Heading fontSize="1.25rem">Relevant</Heading>
-        {/* <Spacer /> */}
+        <Spacer />
         {timeperiods.map((item, idx) => {
           if (isActive === item) {
             return (
