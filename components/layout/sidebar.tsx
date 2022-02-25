@@ -5,7 +5,8 @@ import {
   Heading,
   Image,
   Text,
-  Spacer
+  Spacer,
+  VStack
 } from "@chakra-ui/react";
 import { ReactNode } from "react";
 
@@ -27,6 +28,25 @@ const LinkButton = ({ children }: LinkButtonProps) => {
     </Button>
   );
 };
+
+function LoginCard() {
+  return (
+    <Box as="section" bg="white" borderRadius="md" borderBottom="1px solid #E2E4E6">
+      <VStack spacing={3}>
+            <Button
+              variant='outline'
+              color="#fff"
+              borderRadius="4px"
+              bg="#3b49df"
+              _hover={{ bg: "#323ebe" }}
+            >
+              Create account
+            </Button>
+            <Text fontWeight="500">Login</Text>
+          </VStack>
+    </Box>
+  );
+}
 
 const Links = () => {
   return (

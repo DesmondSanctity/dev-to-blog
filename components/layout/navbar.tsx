@@ -63,7 +63,7 @@ const Navbar = () => {
           <HStack spacing={3}>
           <Text fontWeight="500">Login</Text>
             <Button
-              variant="outline-primary"
+              variant='outline'
               color="#fff"
               borderRadius="4px"
               bg="#3b49df"
