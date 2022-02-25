@@ -209,7 +209,7 @@ const Posts = () => {
 
   return (
     <Box mb="8" borderRadius="md">
-      <Header isActive={isActive} setIsActive={setIsActive} />
+      {/* <Header isActive={isActive} setIsActive={setIsActive} /> */}
       {data.map((post, idx) => (
         <Card
           key={post.id}
