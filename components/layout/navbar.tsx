@@ -79,7 +79,7 @@ const Navbar = () => {
               <MenuButton as={Button} size="sm" px={0} py={0} rounded="full">
                 <Avatar
                   size={"sm"}
-                  src={"https://avatars2.githubusercontent.com/u/37842853?v=4"}
+                  src={"/assets/profile.jpg"}
                 />
               </MenuButton>
               <MenuList
