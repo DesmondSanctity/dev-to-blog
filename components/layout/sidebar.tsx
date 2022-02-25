@@ -51,6 +51,7 @@ function LoginCard() {
 const Links = () => {
   return (
     <Box as="nav">
+      <LoginCard />
       <LinkButton>
         <Image src="/assets/images/sidebar/home.svg" mr="3" alt="home"/>
         Home
