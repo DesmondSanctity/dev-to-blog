@@ -183,18 +183,18 @@ const fetcher = (url) => fetch(url).then(res => res.json());
 
 // const timeperiods = ["Feed", "Week", "Month", "Year", "Infinity", "Latest"];
 const timeperiods = ["Latest", "Top"];
-function returnFetchUrl(isActive) {
-  if (isActive === "Feed") {
-    return "";
-  }
-  return isActive.toLowerCase();
-}
+// function returnFetchUrl(isActive) {
+//   if (isActive === "Feed") {
+//     return "";
+//   }
+//   return isActive.toLowerCase();
+// }
 
 const Posts = () => {
   const [isActive, setIsActive] = useState(timeperiods[0]);
   const { data, error } = useSWR(
     // `https://dev.to/stories/feed/${returnFetchUrl(isActive)}?page=1`,
-    `https://dev.to/search/feed_content?per_page=15&page=0`,
+    `https://dev.to/stories/feed_content?per_page=15&page=0`,
     fetcher
   );
 
