@@ -192,7 +192,7 @@ function returnFetchUrl(isActive) {
 const Posts = () => {
   const [isActive, setIsActive] = useState(timeperiods[0]);
   const { data, error } = useSWR(
-    `https://dev.to/stories/feed/${returnFetchUrl(isActive)}?page=1`,
+    `https://dev.to/stories/feed/${returnFetchUrl(isActive)}?per_page=15&page=1`,
     fetcher
   );
 
