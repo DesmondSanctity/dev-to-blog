@@ -37,7 +37,7 @@ function LoginCard() {
       borderRadius="md"
       borderBottom="1px solid #E2E4E6"
     >
-      <VStack spacing={4}>
+      <VStack spacing={8}>
         <Text fontWeight="500" mb={5} mt={5}>DEV Community is a community of 803,838 amazing developers</Text>
         <Text fontWeight="200"  mb={5}>We are a place where coders share, stay up-to-date and grow their careers.</Text>
         <Button
