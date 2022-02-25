@@ -51,7 +51,7 @@ const Navbar = () => {
     >
       <Container>
         <HStack spacing={4}>
-          <Image src="/assets/images/logo.svg" />
+          <Image src="/assets/images/logo.svg" alt="logo" />
           <Input
             maxW="26rem"
             placeholder="Search..."
@@ -70,10 +70,10 @@ const Navbar = () => {
               Create a post
             </Button>
             <IconButton>
-              <Image src="/assets/images/notification.svg" />
+              <Image src="/assets/images/notification.svg" alt="notification" />
             </IconButton>
             <IconButton>
-              <Image src="/assets/images/bell.svg" />
+              <Image src="/assets/images/bell.svg" alt="bell" />
             </IconButton>
             <Menu isLazy>
               <MenuButton as={Button} size="sm" px={0} py={0} rounded="full">
@@ -90,15 +90,15 @@ const Navbar = () => {
                 boxColor="gray.700"
               >
                 <Link
-                  href="https://dev.to/m_ahmad"
+                  href="https://dev.to/desmondsanctity"
                   _hover={{ textDecoration: "none" }}
                   isExternal
                 >
                   <MenuItem>
                     <VStack justify="start" alignItems="left">
-                      <Text fontWeight="500">Muhammad Ahmad</Text>
+                      <Text fontWeight="500">Desmond Obisi</Text>
                       <Text size="sm" color="gray.500" mt="0 !important">
-                        @m_ahmad
+                        @desmondsanctity
                       </Text>
                     </VStack>
                   </MenuItem>

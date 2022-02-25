@@ -32,27 +32,27 @@ const Links = () => {
   return (
     <Box as="nav">
       <LinkButton>
-        <Image src="/assets/images/sidebar/home.svg" mr="3" />
+        <Image src="/assets/images/sidebar/home.svg" mr="3" alt="home"/>
         Home
       </LinkButton>
       <LinkButton>
-        <Image src="/assets/images/sidebar/reading.svg" mr="3" />
+        <Image src="/assets/images/sidebar/reading.svg" mr="3" alt="reading" />
         Reading List
       </LinkButton>
       <LinkButton>
-        <Image src="/assets/images/sidebar/listing.svg" mr="3" />
+        <Image src="/assets/images/sidebar/listing.svg" mr="3" alt="listing" />
         Listings
       </LinkButton>
       <LinkButton>
-        <Image src="/assets/images/sidebar/podcast.svg" mr="3" />
+        <Image src="/assets/images/sidebar/podcast.svg" mr="3" alt="podcast" />
         Podcasts
       </LinkButton>
       <LinkButton>
-        <Image src="/assets/images/sidebar/video.svg" mr="3" />
+        <Image src="/assets/images/sidebar/video.svg" mr="3" alt="video" />
         Videos
       </LinkButton>
       <LinkButton>
-        <Image src="/assets/images/sidebar/tag.svg" mr="3" />
+        <Image src="/assets/images/sidebar/tag.svg" mr="3" alt="tag" />
         Tags
       </LinkButton>
       <LinkButton>
@@ -81,7 +81,7 @@ const Tags = () => {
           My Tags
         </Heading>
         <Spacer />
-        <Image src="/assets/images/settings.svg" />
+        <Image src="/assets/images/settings.svg" alt="settings" />
       </Flex>
       <Box maxH="50vh" overflowY="auto">
         <TagList>

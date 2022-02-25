@@ -103,9 +103,9 @@ function Card({
       overflow="hidden"
       border="1px solid #08090a1a"
     >
-      {headerImage ? <Image src={headerImage} /> : ""}
+      {headerImage ? <Image src={headerImage} alt="header" /> : ""}
       <Grid templateColumns="max-content 1fr" gap={2} p={4}>
-        <Image src={userProfile} w="8" borderRadius="full" />
+        <Image src={userProfile} w="8" borderRadius="full" alt="profile"/>
 
         <Box>
           <VStack align="flex-start" spacing={0}>
@@ -134,7 +134,7 @@ function Card({
           </HStack>
           <HStack mt={3}>
             <Button
-              leftIcon={<Image src="/assets/images/like.svg" />}
+              leftIcon={<Image src="/assets/images/like.svg" alt="like" />}
               ml={-2}
               bg="transparent"
               padding="6px 8px"
@@ -148,7 +148,7 @@ function Card({
               {reactionCount} reactions
             </Button>
             <Button
-              leftIcon={<Image src="/assets/images/comment.svg" />}
+              leftIcon={<Image src="/assets/images/comment.svg" alt="comment" />}
               bg="transparent"
               padding="6px 8px"
               height="auto"
