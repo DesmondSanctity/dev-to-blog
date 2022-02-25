@@ -61,14 +61,15 @@ const Navbar = () => {
           />
           <Spacer />
           <HStack spacing={3}>
-          <Text fontWeight="500">Dashboard</Text>
+          <Text fontWeight="500">Login</Text>
             <Button
+              variant="outline-primary"
               color="#fff"
               borderRadius="4px"
               bg="#3b49df"
               _hover={{ bg: "#323ebe" }}
             >
-              Create a post
+              Create account
             </Button>
           </HStack>
         </HStack>
