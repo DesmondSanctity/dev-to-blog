@@ -61,6 +61,7 @@ const Navbar = () => {
           />
           <Spacer />
           <HStack spacing={3}>
+          <Text fontWeight="500">Dashboard</Text>
             <Button
               color="#fff"
               borderRadius="4px"
@@ -69,59 +70,6 @@ const Navbar = () => {
             >
               Create a post
             </Button>
-            <IconButton>
-              <Image src="/assets/images/notification.svg" alt="notification" />
-            </IconButton>
-            <IconButton>
-              <Image src="/assets/images/bell.svg" alt="bell" />
-            </IconButton>
-            <Menu isLazy>
-              <MenuButton as={Button} size="sm" px={0} py={0} rounded="full">
-                <Avatar
-                  size={"sm"}
-                  src={"/assets/profile.jpg"}
-                />
-              </MenuButton>
-              <MenuList
-                zIndex={5}
-                border="2px solid"
-                borderColor="gray.700"
-                boxShadow="4px 4px 0"
-                boxColor="gray.700"
-              >
-                <Link
-                  href="https://dev.to/desmondsanctity"
-                  _hover={{ textDecoration: "none" }}
-                  isExternal
-                >
-                  <MenuItem>
-                    <VStack justify="start" alignItems="left">
-                      <Text fontWeight="500">Desmond Obisi</Text>
-                      <Text size="sm" color="gray.500" mt="0 !important">
-                        @desmondsanctity
-                      </Text>
-                    </VStack>
-                  </MenuItem>
-                </Link>
-                <MenuDivider />
-                <MenuItem>
-                  <Text fontWeight="500">Dashboard</Text>
-                </MenuItem>
-                <MenuItem>
-                  <Text fontWeight="500">Create Post</Text>
-                </MenuItem>
-                <MenuItem>
-                  <Text fontWeight="500">Reading List</Text>
-                </MenuItem>
-                <MenuItem>
-                  <Text fontWeight="500">Settings</Text>
-                </MenuItem>
-                <MenuDivider />
-                <MenuItem>
-                  <Text fontWeight="500">Sign Out</Text>
-                </MenuItem>
-              </MenuList>
-            </Menu>
           </HStack>
         </HStack>
       </Container>
